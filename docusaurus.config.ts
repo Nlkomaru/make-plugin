@@ -36,10 +36,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/moirnoparty/make-plugin/tree/main/docs/',
+            'https://github.com/morinoparty/make-plugin/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,8 +80,9 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/intro',
             },
+
           ],
         },
         {
