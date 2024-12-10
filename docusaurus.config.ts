@@ -9,14 +9,14 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://make-plugin.docs.morino.party',
+  url: 'https://make-plugin.nikomaru.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'morinoparty', // Usually your GitHub org/user name.
+  organizationName: 'nlkomaru', // Usually your GitHub org/user name.
   projectName: 'make-plugin', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/morinoparty/make-plugin/tree/main/docs/',
+            'https://github.com/nlkomaru/make-plugin/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,7 +66,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/morinoparty/make-plugin',
+          href: 'https://github.com/nlkomaru/make-plugin',
           label: 'GitHub',
           position: 'right',
         },
@@ -107,7 +107,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/morinoparty/make-plugin',
+              href: 'https://github.com/nlkomaru/make-plugin',
             },
           ],
         },
