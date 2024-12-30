@@ -118,7 +118,7 @@ const config: Config = {
             copyright: `No right reserved. This docs under CC0. Built with Docusaurus.`,
         },
         prism: {
-            additionalLanguages: ['java', 'groovy', 'diff'],
+            additionalLanguages: ['java', 'groovy', 'diff', 'toml'],
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },

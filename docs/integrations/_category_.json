@@ -1,6 +1,6 @@
 {
   "label": "他プラグインとの統合",
-  "position": 2,
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": "プラグインにおいて、他プラグインとの統合を実装する方法を紹介します。"
