@@ -55,6 +55,7 @@ const config: Config = {
                 // Options here
                 indexDocs: true,
                 language: "ja",
+                docsRouteBasePath: "/",
             },
         ],
     ],
