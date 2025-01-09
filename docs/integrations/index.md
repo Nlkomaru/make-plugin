@@ -98,3 +98,39 @@ public final class VaultTest extends JavaPlugin {
 
 このようにして、VaultAPIを利用することができます。
 
+# 金銭のやり取り
+
+Vaultを利用することで、プラグイン側から金銭のやり取りを行うことができます。以下に、金銭のやり取りの例を示します。
+
+```java
+void pay(Player player, double amount) {
+    Economy economy = getServer().getServicesManager().getRegistration(Economy.class).getProvider();
+    economy.depositPlayer(player, amount);
+}
+
+void receive(Player player, double amount) {
+    Economy economy = getServer().getServicesManager().getRegistration(Economy.class).getProvider();
+    economy.withdrawPlayer(player, amount);
+}
+```
+
+このようにして、Vaultを利用したプラグインを作成することができます。
+
+---
+
+# 演習
+
+1. Payコマンドを作成し、プレイヤーにお金を支払うコマンドを作成してください。
+2. Setコマンドを作成し、プレイヤーの所持金を設定するコマンドを作成してください。
+3. Balanceコマンドを作成し、プレイヤーの所持金を表示するコマンドを作成してください。
+4. お金を持っていない場合には、コマンドを実行できないようにしてください。
+
+
+---
+
+# まとめ
+
+このページでは、Vaultを利用したプラグインの作成方法について説明しました。Vaultを利用することで、複数のプラグイン間でお金のやり取りを行うことができます。Vaultを利用したプラグインの作成方法を理解し、実際にプラグインを作成してみてください。
+
+また、Vaultに限らず、他のプラグインとの連携を行う際には、APIを利用することが一般的です。APIを利用することで、他のプラグインとの連携を行うことができます。APIを利用する際には、APIの仕様を理解し、適切に利用することが重要です。
+
